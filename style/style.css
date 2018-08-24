@@ -1,0 +1,68 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,300italic,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=Nunito:400,300,700);
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    color: rgba(28, 54, 83, 0.6);
+    -webkit-text-size-adjust: 100%; 
+}
+
+.inicio {
+    min-height: 750px;
+    background: url("../assets/hero.jpg") center center;
+    background-size: cover;
+    position: relative; 
+}
+
+.inicio h1 {
+    color: #fff;
+    margin-bottom: 40px; 
+}
+.inicio p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 80px; 
+}
+
+ul li {
+    list-style: none; 
+}
+
+/*Fuentes*/
+
+p {
+    font-size: 15px;
+    line-height: 29px;
+    color: rgba(28, 54, 83, 0.6);
+    padding-bottom: 20px; 
+}
+  
+h1 {
+    font-size: 60px; 
+}
+
+  .no-padding {
+    padding: 0; }
+  
+  .no-margin {
+    margin: 0; }
+  
+  a {
+    color: #FF5274;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+    -webkit-transition-duration: 200ms;
+    transition-duration: 200ms;
+    -webkit-transition-property: color, border-color, background-color;
+    transition-property: color, border-color, background-color; }
+  
+  a:hover, a:focus {
+    color: #D7405D;
+    text-decoration: none; }
+  
+    .text-center{
+        text-align: center;
+    }
